@@ -1,0 +1,33 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "Still not sure what will be of this project. I'm simply going to try and create my own react app and see where do we go from there",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirielss/react-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirielss/react-project/issues"
+  },
+  "homepage": "https://github.com/kirielss/react-project#readme",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^2.2.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "vite": "^3.2.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
