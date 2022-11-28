@@ -2,7 +2,7 @@ import { createRoot } from "react-dom/client";
 
 const App = () => {
   return (
-    <div>
+    <div className="reds height">
       essa é uma div
     </div>
   )

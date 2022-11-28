@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.reds {
+    background-color: black;
+    color: red;
+}
+
+.container-entry {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
