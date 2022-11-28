@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: aliceblue;
+    background-color: gainsboro;
 }
 
 .reds {
@@ -18,4 +18,12 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+
+.entry {
+    text-align: center;
+    background-color: #FF191E;
+    border: 2px solid black;
+    padding: 1rem;
+    color: white;
 }

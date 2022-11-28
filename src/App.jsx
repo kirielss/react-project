@@ -1,10 +1,21 @@
 import { createRoot } from "react-dom/client";
+import Entry from "./Entry";
+import PkmProvider from "./PkmProvider";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home";
 
 const App = () => {
   return (
-    <div className="reds height">
-      essa é uma div
-    </div>
+
+    <PkmProvider>
+      <BrowserRouter>
+      <Routes>
+          <Route path="/" element={<Entry />} />
+          <Route path="/Home" element={<Home />} />
+      </Routes>
+      </BrowserRouter>
+    </PkmProvider>
+
   )
 }
 
