@@ -20,8 +20,9 @@ const Entry = () => {
       frontSprite: json.sprites.front_default,
     });
     console.log(json.id, json.name);
+    navigate("/Home");
+
   }
-  navigate("/Home");
 
   return (
     <div className="container-entry">
