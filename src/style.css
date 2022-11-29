@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Karla&display=swap');
+
+:root {
+    --gainsboro: #E1E1E1;
+    --aureolin: #FFEE32;
+    --cybyellow: #FFD100;
+    --erblack: #1D1D1D;
+    --jet: #333533;
+    --redorange: #FF3F00;
+
+    --font-size: 1.3rem;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -5,12 +18,14 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: gainsboro;
+    height: 100vh;
+    font-family: 'Inconsolata', sans-serif;
+    color: var(--gainsboro);
 }
 
-.reds {
-    background-color: black;
-    color: red;
+.font {
+    font-family: 'Karla', Verdana Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 .container-entry {
@@ -32,10 +47,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: aliceblue;
+    background-color: var(--gainsboro);
     border: 2px dashed black;
     padding: 1rem 3rem;
-    color: black;
+    color: var(--erblack);
 }
 
 .gotcha h2 {
@@ -43,9 +58,53 @@ body {
 }
 
 .gotcha a {
-    color: black;
+    color: var(--erblack);
 }
 
 .gotcha a:hover {
-    color:#FF191E
+    color: var(--redorange)
+}
+
+.main {
+    margin: 5rem;
+    background-color: var(--gainsboro);
+    border: 2px solid black;
+    color: black;
+}
+
+.header {
+    padding: 3rem 5rem;
+    background-color: var(--erblack);
+    display: flex;
+    justify-content: space-between;
+    color: var(--gainsboro);
+}
+
+.header li {
+    margin: 0 1rem;
+    list-style-type: none;
+}
+
+.header .a {
+    color: var(--gainsboro);
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h2 {
+    color: var(--aureolin);
+    margin: 0 1rem;
+}
+
+.icon {
+    height: 2rem;
+}
+
+.header .font:hover {
+    color: var(--redorange);
 }

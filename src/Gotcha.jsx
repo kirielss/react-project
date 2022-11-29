@@ -1,4 +1,5 @@
 import { useContext } from "react"
+import { useNavigate } from "react-router-dom";
 import PkmContext from "./PkmContext"
 
 const POKEDEX = "https://www.pokemon.com/br/pokedex/"
@@ -7,6 +8,11 @@ const toTitleCase = (word) => {
 }
 
 const Gotcha = () => {
+    const navigate = useNavigate();
+    const redirect = () => {
+    setTimeout((() => navigate("/Home")), 5000)
+}
+
     const { pkm } = useContext(PkmContext)
     return (
         <div className="container-entry">
@@ -17,6 +23,7 @@ const Gotcha = () => {
  */}                <img src={pkm.frontSprite} alt="front sprite"></img>
                 <a href={POKEDEX + pkm.name} rel={"noreferrer"} target={"_blank"}>Saiba mais sobre {toTitleCase(pkm.name)}</a>
             </div>
+            {redirect()}
         </div>
     )
 }

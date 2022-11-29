@@ -19,7 +19,6 @@ const Entry = () => {
       backSprite: json.sprites.back_default,
       frontSprite: json.sprites.front_default,
     });
-    console.log(json.id, json.name);
     navigate("/Gotcha");
 
   }
