@@ -3,7 +3,7 @@ import Entry from "./Entry";
 import PkmProvider from "./PkmProvider";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Gotcha from "./Gotcha";
-import Home from "./Home/Home";
+import Home from "./routes/Home";
 
 const App = () => {
   return (

@@ -10,7 +10,7 @@ const toTitleCase = (word) => {
 const Gotcha = () => {
     const navigate = useNavigate();
     const redirect = () => {
-    setTimeout((() => navigate("/Home")), 5000)
+    setTimeout((() => navigate("/Home")), 3000)
 }
 
     const { pkm } = useContext(PkmContext)
