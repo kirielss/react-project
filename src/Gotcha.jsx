@@ -19,8 +19,7 @@ const Gotcha = () => {
             <div className="gotcha">
                 <p>Parabéns!!! Você capturou</p>
                 <h2> {pkm.name.toUpperCase()}</h2>
-{/*                 <img src={pkm.backSprite} alt="back sprite"></img>
- */}                <img src={pkm.frontSprite} alt="front sprite"></img>
+                <img src={pkm.frontSprite} alt="front sprite"></img>
                 <a href={POKEDEX + pkm.name} rel={"noreferrer"} target={"_blank"}>Saiba mais sobre {toTitleCase(pkm.name)}</a>
             </div>
             {redirect()}

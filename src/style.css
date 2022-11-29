@@ -85,7 +85,7 @@ body {
     list-style-type: none;
 }
 
-.header .a {
+.a {
     color: var(--gainsboro);
     text-decoration: none;
 }
@@ -107,4 +107,19 @@ body {
 
 .header .font:hover {
     color: var(--redorange);
+}
+
+.footer {
+    padding: 1rem 5rem;
+    background-color: var(--erblack);
+    display: flex;
+    color: var(--gainsboro);
+}
+
+.footer .a:hover{
+    color: var(--aureolin)
+}
+
+.footer div{
+    margin: 0 3rem;
 }
