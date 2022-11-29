@@ -2,7 +2,7 @@ import { createRoot } from "react-dom/client";
 import Entry from "./Entry";
 import PkmProvider from "./PkmProvider";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Home";
+import Gotcha from "./Gotcha";
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
       <BrowserRouter>
       <Routes>
           <Route path="/" element={<Entry />} />
-          <Route path="/Home" element={<Home />} />
+          <Route path="/Gotcha" element={<Gotcha />} />
       </Routes>
       </BrowserRouter>
     </PkmProvider>

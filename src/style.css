@@ -27,3 +27,25 @@ body {
     padding: 1rem;
     color: white;
 }
+
+.gotcha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    border: 2px dashed black;
+    padding: 1rem 3rem;
+    color: black;
+}
+
+.gotcha h2 {
+    margin:0
+}
+
+.gotcha a {
+    color: black;
+}
+
+.gotcha a:hover {
+    color:#FF191E
+}
