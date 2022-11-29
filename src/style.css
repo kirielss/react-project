@@ -73,7 +73,7 @@ body {
 }
 
 .header {
-    padding: 3rem 5rem;
+    padding: 1rem 5rem;
     background-color: var(--erblack);
     display: flex;
     justify-content: space-between;
